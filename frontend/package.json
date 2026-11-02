@@ -1,0 +1,44 @@
+{
+  "name": "marineai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.35.1",
+    "@types/leaflet": "^1.9.21",
+    "@types/mapbox-gl": "3.1.0",
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "10.4.19",
+    "axios": "1.6.8",
+    "clsx": "2.1.1",
+    "date-fns": "3.6.0",
+    "framer-motion": "11.2.10",
+    "leaflet": "^1.9.4",
+    "lucide-react": "0.376.0",
+    "mapbox-gl": "3.3.0",
+    "next": "14.2.3",
+    "postcss": "8.4.38",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-hot-toast": "2.4.1",
+    "react-leaflet": "^5.0.0",
+    "react-map-gl": "7.1.7",
+    "react-query": "3.39.3",
+    "recharts": "2.12.7",
+    "tailwind-merge": "2.3.0",
+    "tailwindcss": "3.4.3",
+    "typescript": "5.4.5",
+    "zustand": "4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3"
+  }
+}
